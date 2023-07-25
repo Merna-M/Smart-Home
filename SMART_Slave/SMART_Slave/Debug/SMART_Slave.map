@@ -1,0 +1,558 @@
+Archive member included because of file (symbol)
+
+d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+                              ULTRASNK_program.o (__mulsi3)
+d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+                              ULTRASNK_program.o (__divmodsi4)
+d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+                              d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o (exit)
+d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+                              DIO_program.o (__do_copy_data)
+d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+                              DIO_program.o (__do_clear_bss)
+d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+                              d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+Distance            0x2               SMART_Slave.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+LOAD DIO_program.o
+LOAD GIE_program.o
+LOAD LED_program.o
+LOAD MOTOR_program.o
+LOAD SMART_Slave.o
+LOAD SPI_program.o
+LOAD TMR0_program.o
+LOAD TMR1_program.o
+LOAD ULTRASNK_program.o
+START GROUP
+LOAD d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libm.a
+END GROUP
+LOAD d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a
+LOAD d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5\libc.a
+LOAD d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xb72
+ *(.vectors)
+ .vectors       0x00000000       0x54 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_3
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_2
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092      0x592 DIO_program.o
+                0x00000092                DIO_vSetPinDir
+                0x000001b4                DIO_vWritePin
+                0x000002d6                DIO_vTogglePin
+                0x00000370                DIO_u8ReadPin
+                0x000003f8                DIO_vSetPortDir
+                0x00000436                DIO_vWritePort
+                0x00000474                DIO_vTogglePort
+                0x000004c2                DIO_u8ReadPort
+                0x00000502                DIO_vConnectPullUp
+ .text          0x00000624       0x10 GIE_program.o
+                0x00000624                GIE_EnableInterrupt
+                0x0000062c                GIE_DisableInterrupt
+ .text          0x00000634       0x24 LED_program.o
+                0x00000634                LED_vInit
+                0x0000063c                LED_vSwitchON
+                0x00000644                LED_vSwitchOFF
+                0x0000064c                LED_vToggle
+                0x00000652                LED_vReadStatus
+ .text          0x00000658       0x74 MOTOR_program.o
+                0x00000658                MOTOR_vInit
+                0x00000676                MOTOR_vRotate
+ .text          0x000006cc      0x198 SMART_Slave.o
+                0x000006cc                TMR0_ISR
+                0x00000714                main
+ .text          0x00000864       0x66 SPI_program.o
+                0x00000864                SPI_vInit
+                0x00000890                SPI_u8Tranceiver
+                0x0000089a                SPI_vMasterSendString
+ .text          0x000008ca       0xda TMR0_program.o
+                0x000008ca                TMR0_OVF_SetCallBack
+                0x000008d4                TMR0_COMP_SetCallBack
+                0x000008de                TMR0_vInit
+                0x00000900                __vector_10
+                0x00000952                __vector_11
+ .text          0x000009a4       0xa0 TMR1_program.o
+                0x000009a4                TMR1_SetCallBack
+                0x000009ae                TMR1_vInit
+                0x000009c2                TMR1_vSetOCR1Value
+                0x000009c8                TMR1_u16ICREdgeChange
+                0x000009da                TMR1_vICUEdgeSelect
+                0x000009f2                __vector_6
+ .text          0x00000a44       0x72 ULTRASNK_program.o
+                0x00000a44                ULTRASNK_vInit
+                0x00000a54                ULTRASNK_u8MeasureDistance
+ .text          0x00000ab6        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000ab6        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000ab6        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .text          0x00000ab6        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000ab6        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000ab6        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000ab6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00000ab6       0x3e d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+                0x00000ab6                __mulsi3
+ .text.libgcc   0x00000af4       0x36 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+                0x00000af4                __divmodsi4
+ .text.libgcc   0x00000b2a        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000b2a        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000b2a        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000b2a       0x44 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000b2a                __udivmodsi4
+                0x00000b6e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000b6e        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+                0x00000b6e                _exit
+                0x00000b6e                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000b6e        0x4 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000b72                _etext = .
+
+.data           0x00800060        0x0 load address 0x00000b72
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 DIO_program.o
+ .data          0x00800060        0x0 GIE_program.o
+ .data          0x00800060        0x0 LED_program.o
+ .data          0x00800060        0x0 MOTOR_program.o
+ .data          0x00800060        0x0 SMART_Slave.o
+ .data          0x00800060        0x0 SPI_program.o
+ .data          0x00800060        0x0 TMR0_program.o
+ .data          0x00800060        0x0 TMR1_program.o
+ .data          0x00800060        0x0 ULTRASNK_program.o
+ .data          0x00800060        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800060        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00800060        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800060                . = ALIGN (0x2)
+                0x00800060                _edata = .
+                0x00800060                PROVIDE (__data_end, .)
+
+.bss            0x00800060        0x9
+                0x00800060                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800060        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800060        0x0 DIO_program.o
+ .bss           0x00800060        0x0 GIE_program.o
+ .bss           0x00800060        0x0 LED_program.o
+ .bss           0x00800060        0x0 MOTOR_program.o
+ .bss           0x00800060        0x1 SMART_Slave.o
+                0x00800060                TMR0_counter
+ .bss           0x00800061        0x0 SPI_program.o
+ .bss           0x00800061        0x4 TMR0_program.o
+                0x00800061                GP_TMR0_COMP
+                0x00800063                GP_TMR0_OVF
+ .bss           0x00800065        0x2 TMR1_program.o
+                0x00800065                GP_TMR1_CAPT
+ .bss           0x00800067        0x0 ULTRASNK_program.o
+ .bss           0x00800067        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800067        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00800067        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00800067        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800067        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800067        0x0 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800067        0x2 SMART_Slave.o
+                0x00800067                Distance
+                0x00800069                PROVIDE (__bss_end, .)
+                0x00000b72                __data_load_start = LOADADDR (.data)
+                0x00000b72                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800069        0x0
+                0x00800069                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800069                PROVIDE (__noinit_end, .)
+                0x00800069                _end = .
+                0x00800069                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x6cc
+ *(.stab)
+ .stab          0x00000000      0x6cc d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+
+.stabstr        0x00000000       0x85
+ *(.stabstr)
+ .stabstr       0x00000000       0x85 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr5/crtm32.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 DIO_program.o
+ .debug_aranges
+                0x00000020       0x20 GIE_program.o
+ .debug_aranges
+                0x00000040       0x20 LED_program.o
+ .debug_aranges
+                0x00000060       0x20 MOTOR_program.o
+ .debug_aranges
+                0x00000080       0x20 SMART_Slave.o
+ .debug_aranges
+                0x000000a0       0x20 SPI_program.o
+ .debug_aranges
+                0x000000c0       0x20 TMR0_program.o
+ .debug_aranges
+                0x000000e0       0x20 TMR1_program.o
+ .debug_aranges
+                0x00000100       0x20 ULTRASNK_program.o
+ .debug_aranges
+                0x00000120       0x20 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+ .debug_aranges
+                0x00000140       0x20 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+ .debug_aranges
+                0x00000160       0x20 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000180       0x20 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x000001a0       0x20 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x000001c0       0x20 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x123a
+ *(.debug_info)
+ .debug_info    0x00000000      0x29d DIO_program.o
+ .debug_info    0x0000029d       0xa1 GIE_program.o
+ .debug_info    0x0000033e      0x18f LED_program.o
+ .debug_info    0x000004cd      0x110 MOTOR_program.o
+ .debug_info    0x000005dd      0x110 SMART_Slave.o
+ .debug_info    0x000006ed      0x19b SPI_program.o
+ .debug_info    0x00000888      0x152 TMR0_program.o
+ .debug_info    0x000009da      0x19e TMR1_program.o
+ .debug_info    0x00000b78      0x194 ULTRASNK_program.o
+ .debug_info    0x00000d0c       0xdd d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+ .debug_info    0x00000de9       0xdd d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+ .debug_info    0x00000ec6       0xdd d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_info    0x00000fa3       0xdd d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_info    0x00001080       0xdd d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .debug_info    0x0000115d       0xdd d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x6a4
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xd5 DIO_program.o
+ .debug_abbrev  0x000000d5       0x41 GIE_program.o
+ .debug_abbrev  0x00000116       0x69 LED_program.o
+ .debug_abbrev  0x0000017f       0x67 MOTOR_program.o
+ .debug_abbrev  0x000001e6       0x96 SMART_Slave.o
+ .debug_abbrev  0x0000027c      0x108 SPI_program.o
+ .debug_abbrev  0x00000384       0xac TMR0_program.o
+ .debug_abbrev  0x00000430       0xfe TMR1_program.o
+ .debug_abbrev  0x0000052e       0xfe ULTRASNK_program.o
+ .debug_abbrev  0x0000062c       0x14 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+ .debug_abbrev  0x00000640       0x14 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+ .debug_abbrev  0x00000654       0x14 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_abbrev  0x00000668       0x14 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x0000067c       0x14 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x00000690       0x14 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+
+.debug_line     0x00000000      0x9b9
+ *(.debug_line)
+ .debug_line    0x00000000       0xb8 DIO_program.o
+ .debug_line    0x000000b8       0x51 GIE_program.o
+ .debug_line    0x00000109       0x5a LED_program.o
+ .debug_line    0x00000163       0x5c MOTOR_program.o
+ .debug_line    0x000001bf       0x87 SMART_Slave.o
+ .debug_line    0x00000246      0x186 SPI_program.o
+ .debug_line    0x000003cc       0x66 TMR0_program.o
+ .debug_line    0x00000432       0x6c TMR1_program.o
+ .debug_line    0x0000049e      0x186 ULTRASNK_program.o
+ .debug_line    0x00000624       0xa5 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_mulsi3.o)
+ .debug_line    0x000006c9       0xa1 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_divmodsi4.o)
+ .debug_line    0x0000076a       0x88 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_exit.o)
+ .debug_line    0x000007f2       0x91 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_copy_data.o)
+ .debug_line    0x00000883       0x8e d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_clear_bss.o)
+ .debug_line    0x00000911       0xa8 d:/programs/atmel studio/atmel/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr5\libgcc.a(_udivmodsi4.o)
+
+.debug_frame    0x00000000      0x400
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa4 DIO_program.o
+ .debug_frame   0x000000a4       0x34 GIE_program.o
+ .debug_frame   0x000000d8       0x64 LED_program.o
+ .debug_frame   0x0000013c       0x50 MOTOR_program.o
+ .debug_frame   0x0000018c       0x34 SMART_Slave.o
+ .debug_frame   0x000001c0       0x50 SPI_program.o
+ .debug_frame   0x00000210       0xf4 TMR0_program.o
+ .debug_frame   0x00000304       0xbc TMR1_program.o
+ .debug_frame   0x000003c0       0x40 ULTRASNK_program.o
+
+.debug_str      0x00000000      0x598
+ *(.debug_str)
+ .debug_str     0x00000000      0x1bc DIO_program.o
+                                0x1e3 (size before relaxing)
+ .debug_str     0x000001bc       0x3c GIE_program.o
+                                0x132 (size before relaxing)
+ .debug_str     0x000001f8       0x56 LED_program.o
+                                0x163 (size before relaxing)
+ .debug_str     0x0000024e       0x73 MOTOR_program.o
+                                0x169 (size before relaxing)
+ .debug_str     0x000002c1       0x41 SMART_Slave.o
+                                0x14d (size before relaxing)
+ .debug_str     0x00000302       0xc6 SPI_program.o
+                                0x1c9 (size before relaxing)
+ .debug_str     0x000003c8       0x7b TMR0_program.o
+                                0x171 (size before relaxing)
+ .debug_str     0x00000443       0xb5 TMR1_program.o
+                                0x1c6 (size before relaxing)
+ .debug_str     0x000004f8       0xa0 ULTRASNK_program.o
+                                0x1e1 (size before relaxing)
+
+.debug_loc      0x00000000      0xb47
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4ab DIO_program.o
+ .debug_loc     0x000004ab       0xbe LED_program.o
+ .debug_loc     0x00000569      0x148 MOTOR_program.o
+ .debug_loc     0x000006b1       0xb8 SMART_Slave.o
+ .debug_loc     0x00000769       0xbe SPI_program.o
+ .debug_loc     0x00000827      0x196 TMR0_program.o
+ .debug_loc     0x000009bd       0xe9 TMR1_program.o
+ .debug_loc     0x00000aa6       0xa1 ULTRASNK_program.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(SMART_Slave.elf elf32-avr)
+LOAD linker stubs

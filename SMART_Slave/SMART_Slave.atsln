@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "SMART_Slave", "SMART_Slave\SMART_Slave.cproj", "{F3CBB510-D5F3-4E40-8831-A6E13458071D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3CBB510-D5F3-4E40-8831-A6E13458071D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F3CBB510-D5F3-4E40-8831-A6E13458071D}.Debug|AVR.Build.0 = Debug|AVR
+		{F3CBB510-D5F3-4E40-8831-A6E13458071D}.Release|AVR.ActiveCfg = Release|AVR
+		{F3CBB510-D5F3-4E40-8831-A6E13458071D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
